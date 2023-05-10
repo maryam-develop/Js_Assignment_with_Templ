@@ -8,4 +8,10 @@
 
 // 3. Write a script to display following message on your web page: (Hint : Use line break)
 
-alert("Welcome to JS Land...\n Happy Coding!");
+// alert("Welcome to JS Land...\n Happy Coding!");
+
+// 4. Write a script to display following messages in sequence:
+
+alert("Welcome to JS Land...");
+
+alert(" Happy Coding!");
