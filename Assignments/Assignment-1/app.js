@@ -4,4 +4,8 @@
 
 // 2. Write a script to display following message on your web page:
 
-alert("Error! Please Enter a valid password.");
+// alert("Error! Please Enter a valid password.");
+
+// 3. Write a script to display following message on your web page: (Hint : Use line break)
+
+alert("Welcome to JS Land...\n Happy Coding!");
