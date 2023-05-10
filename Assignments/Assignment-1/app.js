@@ -12,6 +12,9 @@
 
 // 4. Write a script to display following messages in sequence:
 
-alert("Welcome to JS Land...");
+// alert("Welcome to JS Land...");
 
-alert(" Happy Coding!");
+// alert(" Happy Coding!");
+// 5. Generate the following message through browser’s developer console:
+
+
