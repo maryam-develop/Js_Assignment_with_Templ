@@ -49,3 +49,15 @@
 // 8 Write a script to display this in browser through JS
 
 // document.write("Yay! I can write HTML content Through JavaScript")
+
+// 9. Store following string in a variable and show in alert and browser through JS
+
+// alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+
+
+
+
+
+
+
+
