@@ -16,5 +16,19 @@
 
 // alert(" Happy Coding!");
 // 5. Generate the following message through browser’s developer console:
+// in console 
 
+// alert("Hello.. I can run JS through my web Browser's console");
+// // or 
+
+// console.log("Hello.. I can run JS through my web Browser's console");
+
+
+// 6. Make use of alerts in your new /existing HTML & CSS project.
+// 7. Practice placement of < script ></script > element in
+//     following sections of your project in exercise 6:
+// a.Head
+// b.Body(before your page’s HTML)
+// c. Body (inside your page’s HTML)
+// d. Body (after your page’s HTML)
 
