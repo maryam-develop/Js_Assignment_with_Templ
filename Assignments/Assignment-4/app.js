@@ -29,7 +29,7 @@
 // d) Variable names are case _________
 // e) Variable names should not be JS _________
 
-document.write("<h1>Rules for naming JS variables</h1> <br>" +"Variable names can only contain numbers, $ and _. For Example: $name, _name or name<br>"+" Variable names are case Sensitive <br>"+"Variable names should not be JS")
+// document.write("<h1>Rules for naming JS variables</h1> <br>" +"Variable names can only contain numbers, $ and _. For Example: $name, _name or name.<br>"+" Variable names are case Sensitive <br>"+"Variable names should not be JS.")
 
 
 
