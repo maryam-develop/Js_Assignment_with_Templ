@@ -8,3 +8,12 @@
 
 // var nTimes = 222 + " times ";
 // alert("you have visted this site " + nTimes);
+
+// 3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
+
+// var birthYear = 2001 ;
+// document.write("My birth year is "+ birthYear + "<br>"  + "Data type of my declare variable is number");
+
+
+
+
