@@ -1,6 +1,6 @@
 // 1. Write a program that take two numbers & add them in a new variable. Show the result in your browser.
-var x=3;
-var y=5;
+// var x=3;
+// var y=5;
 
 // document.write("Sum of "+x +" and "+ y +" is " + (x + y) );
 // 2. Repeat task1 for subtraction, multiplication, division & modulus.
@@ -106,3 +106,30 @@ var y=5;
 // document.write("Shipping Charges is " + shipping_charges +"<br><br>")
 // document.write("Total Cost of your order is " + total_cost );
 
+// 8. Store total marks & marks obtained by a student in 2
+// variables. Compute the percentage & show the result in
+// your browser
+
+// var total_marks = 980;
+// var marks_obtained = 804;
+// var percentage = (marks_obtained / total_marks)*100;
+// document.write("Total Mrks: "+ total_marks+ "<br>"+ "Marks obtained: "+marks_obtained+"<br>" +"Percentage: " + percentage +"%");
+
+// 9. Assume we have 10 US dollars & 25 Saudi Riyals. Write a
+// script to convert the total currency to Pakistani Rupees.
+// Perform all calculations in a single expression.
+// (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee
+// and 1 Saudi Riyal = 28 Pakistani Rupee)
+
+
+// document.write("Total Currency in PKR : "+ (10*104.80 + 25*28));
+// 10. Write a program to initialize a variable with some
+// number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+
+
+// var num = 12;
+// console.log((num+12*10)/2);
