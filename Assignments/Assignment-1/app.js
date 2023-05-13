@@ -15,6 +15,7 @@
 // alert("Welcome to JS Land...");
 
 // alert(" Happy Coding!");
+
 // 5. Generate the following message through browser’s developer console:
 // in console 
 

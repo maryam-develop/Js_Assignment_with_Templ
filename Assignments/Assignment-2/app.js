@@ -42,6 +42,10 @@
 
 //7. Declare a variable called book & give it the value “Asmarter way to learn JavaScript”. Display the following message in an alert box:
 
-var book = "A smarter way to learn JavaScript";
+// var book = "A smarter way to learn JavaScript";
 
-alert("I am trying to learn from the Book " +book);
+// alert("I am trying to learn from the Book " +book);
+
+// 8 Write a script to display this in browser through JS
+
+// document.write("Yay! I can write HTML content Through JavaScript")
