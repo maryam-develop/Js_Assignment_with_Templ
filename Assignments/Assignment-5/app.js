@@ -42,5 +42,42 @@ var y=5;
 // var mov_ticket_5 = 5;
 // console.log("Total cost to buy " +mov_ticket_5+"tickets to a movie is "+ mov_ticket_5 * mov_ticket+" PKR");
 
+// 5. Write a script to display multiplication table of any number in your browser. 
 
+// var table = 4 ;
+// var a1 =  4*1;
+// var a2 =  4*2;
+// var a3 =  4*3;
+// var a4 =  4*4;
+// var a5 =  4*5;
+// var a6 =  4*6;
+// var a7 =  4*7;
+// var a8 =  4*8;
+// var a9 =  4*9;
+// var a10 =  4*10;
 
+// console.log("Table of 4");
+// console.log(table +" x 1 = " +a1);
+// console.log(table +" x 2 = " +a2);
+// console.log(table +" x 3 = " +a3);
+// console.log(table +" x 4 = " +a4);
+// console.log(table +" x 5 = " +a5);
+// console.log(table +" x 6 = " +a6);
+// console.log(table +" x 7 = " +a7);
+// console.log(table +" x 8 = " +a8);
+// console.log(table +" x 9 = " +a9);
+// console.log(table +" x 10 = " +a10);
+
+// 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
+// a. Store a Celsius temperature into a variable.
+// b. Convert it to Fahrenheit & output “NNoC is NNoF”.
+// c. Now store a Fahrenheit temperature into a variable.
+// d. Convert it to Celsius & output “NNoF is NNoC”.
+// Conversion Formulae:
+
+// var C = 36;
+// var convert_C = (C * 9/5)+32;
+// document.write(C+"<sup>0</sup> C is " + convert_C+"<sup>0</sup> F");
+// var F = 101;
+// var convert_F = (F -32)*5/9;
+// document.write("<br>"+F+"<sup>0</sup> F is "+convert_F+ "<sup>0</sup> C ")
