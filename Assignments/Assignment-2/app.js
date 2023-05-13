@@ -35,10 +35,13 @@
 
 // alert(food);
 
-// 6. Declare a variable called email and assign to it a string that
-// represents your Email Address(e.g. example@example.com).
-// Show the blow mentioned message in an alert box.(Hint: use
-// string concatenation)
+// 6. Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com). Show the blow mentioned message in an alert box.(Hint: use string concatenation)
 
-var email = "myheadache745@gmail.com";
-alert("My Email Address is "+email);
+// var email = "myheadache745@gmail.com";
+// alert("My Email Address is "+ email);
+
+//7. Declare a variable called book & give it the value “Asmarter way to learn JavaScript”. Display the following message in an alert box:
+
+var book = "A smarter way to learn JavaScript";
+
+alert("I am trying to learn from the Book " +book);
