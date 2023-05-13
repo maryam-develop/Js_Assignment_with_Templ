@@ -23,15 +23,24 @@ var y=5;
 // k. Show the remainder after dividing the variable’s value by 3.
 // l. Output : “The remainder is : 0”.
 
-var num ;
-document.write("Value after variable declaration is: " + num)
-num = 5;
-document.write("<br>Initial value: " + num);
-num ++;
-document.write("<br>Value after increment is " + num);
-num = num + 7;
-document.write("<br>Value after addition is " + num);
-num --;
-document.write("<br>Value after decrement is " + num);
-num = num % 3;
-document.write("<br>The remainder is " + num);
+// var num ;
+// document.write("Value after variable declaration is: " + num)
+// num = 5;
+// document.write("<br>Initial value: " + num);
+// num ++;
+// document.write("<br>Value after increment is " + num);
+// num = num + 7;
+// document.write("<br>Value after addition is " + num);
+// num --;
+// document.write("<br>Value after decrement is " + num);
+// num = num % 3;
+// document.write("<br>The remainder is " + num);
+
+// 4. Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie. Example output:
+
+// var mov_ticket = 600 ;
+// var mov_ticket_5 = 5;
+// console.log("Total cost to buy " +mov_ticket_5+"tickets to a movie is "+ mov_ticket_5 * mov_ticket+" PKR");
+
+
+
