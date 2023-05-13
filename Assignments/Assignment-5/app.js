@@ -81,3 +81,28 @@ var y=5;
 // var F = 101;
 // var convert_F = (F -32)*5/9;
 // document.write("<br>"+F+"<sup>0</sup> F is "+convert_F+ "<sup>0</sup> C ")
+
+// 7. Write a program to implement checkout process of a
+// shopping cart system for an e-commerce website. Store
+// the following in variables
+// a. Price of item 1
+// b. Price of item 2
+// c. Ordered quantity of item 1
+// d. Ordered Quantity of item 2
+// e. Shipping charges
+// Compute the total cost & show the receipt in your browser.
+
+// var item1 = 650;
+// var item2 = 100;
+// var item1_quantity = 3;
+// var item2_quantity = 7;
+// var shipping_charges = 100;
+// var total_cost = item1*item1_quantity + item2*item2_quantity + shipping_charges;
+// document.write("<h1>Shopping Cart</h1>" +"<br>")
+// document.write("Price of item 1 is " + item1 +"<br>")
+// document.write("Quantity of item 1 is " + item1_quantity +"<br>")
+// document.write("Price of item 2 is " + item2 +"<br>")
+// document.write("Quantity of item 2 is " + item2_quantity +"<br>")
+// document.write("Shipping Charges is " + shipping_charges +"<br><br>")
+// document.write("Total Cost of your order is " + total_cost );
+
