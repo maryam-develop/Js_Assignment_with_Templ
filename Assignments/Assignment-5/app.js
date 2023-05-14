@@ -133,3 +133,32 @@
 
 // var num = 12;
 // console.log((num+12*10)/2);
+
+// 11. The Age Calculator: Forgot how old someone is?
+// Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored
+// values.
+// Output them to the screen like so: “They are either NN or NN
+// years old”.
+
+
+//  var currentYear = 2016;
+//  var birthYear = 1992;
+//  var age = currentYear - birthYear;
+//  document.write("<h1>Age Calculator </h1><br>"+"Current Year: "+currentYear+"<br>Birth Year"+birthYear+"<br>They are either "+ age +" or "+ (age-1)+" years old")
+
+// 12. The Geometrizer: Calculate properties of a circle.
+// a. Store a radius into a variable.
+// b. Calculate the circumference based on the radius, and
+// output “The circumference is NN”.
+// (Hint : Circumference of a circle = 2 π r , π = 3.142)
+// Calculate the area based on the radius, and output “The
+// area is NN”. (Hint : Area of a circle = π r2, π = 3.14
+
+document.write("<h1>THe Geometriz</h1><br>")
+var radius =  20;
+var circumference = 2 * 3.142 * radius;
+var area = 3.14 * radius * radius;
+document.write("The Radius is: "+ radius +"<br>The circumference is: "+ circumference +"<br>The area is: "+ area)
