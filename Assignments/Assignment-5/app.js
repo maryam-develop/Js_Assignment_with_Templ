@@ -157,8 +157,31 @@
 // Calculate the area based on the radius, and output “The
 // area is NN”. (Hint : Area of a circle = π r2, π = 3.14
 
-document.write("<h1>THe Geometriz</h1><br>")
-var radius =  20;
-var circumference = 2 * 3.142 * radius;
-var area = 3.14 * radius * radius;
-document.write("The Radius is: "+ radius +"<br>The circumference is: "+ circumference +"<br>The area is: "+ area)
+// document.write("<h1>THe Geometriz</h1><br>")
+// var radius =  20;
+// var circumference = 2 * 3.142 * radius;
+// var area = 3.14 * radius * radius;
+// document.write("The Radius is: "+ radius +"<br>The circumference is: "+ circumference +"<br>The area is: "+ area)
+
+// 13. The Lifetime Supply Calculator: Ever wonder how
+// much a “lifetime supply” of your favorite snack is?
+// Wonder no more.
+// a. Store your favorite snack into a variable
+// b. Store your current age into a variable.
+// c. Store a maximum age into a variable.
+// d. Store an estimated amount per day (as a number).
+// e. Calculate how many would you eat total for the rest of
+// your life.
+// Output the result to the screen like so: “You will need
+// NNNN to last you until the ripe old age of NN”.
+
+
+// document.write("<h1>The Lifetime Supply Calculator:</h1><br>");
+
+// var favSnack = "kitkat";
+// var currentAge = 15;
+// var maxAge = 65;
+// var estimatedAmount = 3;
+// var snackLifetime = (maxAge - currentAge) * estimatedAmount;
+
+document.write("You will need "+ snackLifetime +" to last you until the rip old age of "+maxAge);
