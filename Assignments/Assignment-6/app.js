@@ -91,19 +91,19 @@
 // result in browser like this.(Hint: user table)
 
 
-var subject1 = prompt("enter any subject1");
-var subject2 = prompt("enter any subject2");
-var subject3 = prompt("enter any subject3");
-var subject1Num = +prompt("enter any number");
-var subject2Num = +prompt("enter any number");
-var subject3Num = +prompt("enter any number");
-var totalMarks = 100;
-var subject1Per = (subject1Num / totalMarks) * 100;
-var subject2Per = (subject2Num / totalMarks) * 100;
-var subject3Per = (subject3Num / totalMarks) * 100;
-var totalPer = (subject1Per + subject2Per + subject3Per)/3;
-document.write("<table><thead> <tr><th>Subjects</th> <th>Total Marks</th><th>Obtained Marks</th> <th>Percentage</th></tr></thead>"+"<br>");
-document.write(" <tr><td>"+subject1+"</td>  <td>"+totalMarks+"</td>  <td>"+subject1Num+"</td>  <td>"+subject1Per+"</td></tr>"+"<br>" );
-document.write(" <tr><td>"+subject2+"</td>  <td>"+totalMarks+"</td>  <td>"+subject2Num+"</td>  <td>"+subject2Per+"</td></tr>"+"<br>"  );
-document.write("<tr><td>"+subject3+"</td>  <td>"+totalMarks+"</td>  <td>"+subject3Num+"</td>  <td>"+subject3Per+"</td></tr>"+"<br>");
-document.write("<tfoot>  <tr><td>Total</td>  <td>"+(totalMarks+totalMarks+totalMarks)+"</td>  <td>"+(subject1Num+subject2Num+subject3Num)+"</td>  <td>"+totalPer+"</td></tr> </tfoot>> </table>"+ "<br>");
+// var subject1 = prompt("enter any subject1");
+// var subject2 = prompt("enter any subject2");
+// var subject3 = prompt("enter any subject3");
+// var subject1Num = +prompt("enter any number");
+// var subject2Num = +prompt("enter any number");
+// var subject3Num = +prompt("enter any number");
+// var totalMarks = 100;
+// var subject1Per = (subject1Num / totalMarks) * 100;
+// var subject2Per = (subject2Num / totalMarks) * 100;
+// var subject3Per = (subject3Num / totalMarks) * 100;
+// var totalPer = (subject1Per + subject2Per + subject3Per)/3;
+// document.write("<table><thead> <h3> <tr><th>Subjects</th> <th>Total Marks</th><th>Obtained Marks</th> <th>Percentage</th></tr></h3></thead>"+"<br>");
+// document.write(" <tr><td>"+subject1+"</td>  <td>"+totalMarks+"</td>  <td>"+subject1Num+"</td>  <td>"+subject1Per+"</td></tr>"+"<br>" );
+// document.write(" <tr><td>"+subject2+"</td>  <td>"+totalMarks+"</td>  <td>"+subject2Num+"</td>  <td>"+subject2Per+"</td></tr>"+"<br>"  );
+// document.write("<tr><td>"+subject3+"</td>  <td>"+totalMarks+"</td>  <td>"+subject3Num+"</td>  <td>"+subject3Per+"</td></tr>"+"<br>");
+// document.write("<tfoot> <h3> <tr><td>Total</td>  <td>"+(totalMarks+totalMarks+totalMarks)+"</td>  <td>"+(subject1Num+subject2Num+subject3Num)+"</td>  <td>"+totalPer+"</td></tr></h3> </tfoot>> </table>"+ "<br>");
