@@ -78,7 +78,7 @@
 //     document.write(5 + " * " + i + " = " +  5*i +"<br>" )
 // }
 // }
-// Take
+// 6 Take
 // a) Take three subjects name from user and store them in 3
 // different variables.
 // b) Total marks for each subject is 100, store it in another
@@ -103,7 +103,7 @@ var subject2Per = (subject2Num / totalMarks) * 100;
 var subject3Per = (subject3Num / totalMarks) * 100;
 var totalPer = (subject1Per + subject2Per + subject3Per)/3;
 document.write("<table><thead> <tr><th>Subjects</th> <th>Total Marks</th><th>Obtained Marks</th> <th>Percentage</th></tr></thead>"+"<br>");
-document.write("<tbody> <tr><td>"+subject1+"</td>  <td>"+totalMarks+"</td>  <td>"+subject1Num+"</td>  <td>"+subject1Per+"</td></tr>"+"<br>" );
+document.write(" <tr><td>"+subject1+"</td>  <td>"+totalMarks+"</td>  <td>"+subject1Num+"</td>  <td>"+subject1Per+"</td></tr>"+"<br>" );
 document.write(" <tr><td>"+subject2+"</td>  <td>"+totalMarks+"</td>  <td>"+subject2Num+"</td>  <td>"+subject2Per+"</td></tr>"+"<br>"  );
-document.write("<tr><td>"+subject3+"</td>  <td>"+totalMarks+"</td>  <td>"+subject3Num+"</td>  <td>"+subject3Per+"</td></tr></tbody>"+"<br>");
-// document.write("<tfoot>  <tr><td>Total</td>  <td>"+(totalMarks+totalMarks+totalMarks)+"</td>  <td>"+(subject1Num+subject2Num+subject3Num)+"</td>  <td>"+totalPer+"</td></tr> </tfoot>> </table>"+ "<br>");
+document.write("<tr><td>"+subject3+"</td>  <td>"+totalMarks+"</td>  <td>"+subject3Num+"</td>  <td>"+subject3Per+"</td></tr>"+"<br>");
+document.write("<tfoot>  <tr><td>Total</td>  <td>"+(totalMarks+totalMarks+totalMarks)+"</td>  <td>"+(subject1Num+subject2Num+subject3Num)+"</td>  <td>"+totalPer+"</td></tr> </tfoot>> </table>"+ "<br>");
