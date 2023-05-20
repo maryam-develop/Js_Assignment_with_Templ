@@ -25,3 +25,15 @@
 // } else {
 //     console.log(integers1 + " and " + integers2 + " are equal");
 // }
+// 3. Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero
+
+// var userInput = prompt("Enter a Number")
+
+// if (userInput >0) {
+//     console.log("The number is Positive");
+// } else if(userInput <0){
+//     console.log("The number is Negitive");
+// }else{
+//     console.log("The number is zero");
+// }
