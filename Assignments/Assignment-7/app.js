@@ -16,28 +16,23 @@
 // if (gender=="male"){
 //     alert("Good Morning Sir");
 //     }
-//     else if (gender=="female"){
+//     if (gender=="female"){
 //         alert("Good Morning Ma’am");
 //         }
-//         else {
-//             alert("please write male or female");
-//             }
-
+   
 // 3. Write a program to take input color of road traffic signal
 // from the user & show the message according to this table:
 
 // var inputColor = prompt("Color of road traffic signal");
 // if (inputColor==  "Red"){
 //     alert("Must Stop");
-//     }else
-//      if (inputColor=="Yellow"){
+//     } if (inputColor=="Yellow"){
 //         alert("Ready to Move");
-//     }else if (inputColor=="Green") {
+//     }if (inputColor=="Green") {
 //         alert("Move now");
 
-//     }else {
-//         alert("please write Red, Yellow or Green");
 //     }
+
 // 4. Write a program to take input remaining fuel in car (in
 //     litres) from user. If the current fuel is less than 0.25litres,
 //     show the message “Please refill the fuel in your car”
@@ -88,5 +83,68 @@
 //  if("car" < "cat"){
 //     alert("car is smaller than cat");
 //     }//this message displayed
+
+// 6. Write a program to take input the marks obtained in three
+// subjects & total marks. Compute & show the resulting
+// percentage on your page. Take percentage & compute
+// grade as per following table:
+
+//  var markObtain1 = +prompt("enter Eng subject marks ")
+//  var markObtain2 = +prompt("Enter Math marks");
+//  var markObtain3 = +prompt("Enter Urdu marks");
+//  var totalMarks  = +prompt("Enter total marks");
+
+
+//  var total_marksobtain = markObtain1 +markObtain2+ markObtain3;
+//  var percentage = total_marksobtain / totalMarks *100;
+//  if(percentage >= 80 ){
+//    document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : A-one"+"<br>Remarks : Excellent");
+
+// }
+//   if (percentage >= 70 && percentage<= 79.99) {
+
+//      document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : A"+"<br>Remarks : Good");
+   
+
+//    } if (percentage >= 60 && percentage<= 69.99) {
+ 
+//      document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : B"+"<br>Remarks : You need to improvement");
+
+//    }if (percentage < 60) {
+  
+//     document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : Fail"+"<br>Remarks : Sorry");
+//    }
+
+// Guess game:
+// Store a secret number (ranging from 1 to 10) in a variable.
+// Prompt user to guess the secret number.
+// a. If user guesses the same number, show “Bingo! Correct
+// answer”.
+// b. If the guessed number +1 is the secret number, show
+// “Close enough to the correct answer”.
+
+// document.write("Guess Game")
+// var secNum = 6;
+// var guess = +prompt(" guess the secret number between 1 to 10");
+// if (guess==secNum){
+//    alert("Bingo! Correct answer");
+// }
+// if (guess == secNum+1){
+//    alert("Close enough to the correct answer");
+// }
+// 8. Write a program to check whether the given number is
+// divisible by 3. Show the message to the user if the number
+// is divisible by 3
+
+// var userInput= +prompt("Enter a num ");
+
+// if (userInput%3 == 0 ){
+//    alert("The number is divisible by 3");
+// }
+
+// 9. Write a program that checks whether the given input is an
+// even number or an odd number.
+
+
 
 
