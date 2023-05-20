@@ -19,7 +19,7 @@
 //     if (gender=="female"){
 //         alert("Good Morning Ma’am");
 //         }
-   
+
 // 3. Write a program to take input color of road traffic signal
 // from the user & show the message according to this table:
 
@@ -41,12 +41,12 @@
 
 // if (fuel <=0.25 ) {                  
 //     alert("Please refill the fuel in your car");
-    
+
 // }
 
 //     alert("You are alright");
-    // 5. Run this script, & check whether alert message would be
-    // displayed or not. Record the outputs.
+// 5. Run this script, & check whether alert message would be
+// displayed or not. Record the outputs.
 //      var a = 4;
 //     if (++a === 5){
 //     alert("given condition for variable a is true");
@@ -104,14 +104,14 @@
 //   if (percentage >= 70 && percentage<= 79.99) {
 
 //      document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : A"+"<br>Remarks : Good");
-   
+
 
 //    } if (percentage >= 60 && percentage<= 69.99) {
- 
+
 //      document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : B"+"<br>Remarks : You need to improvement");
 
 //    }if (percentage < 60) {
-  
+
 //     document.write("<h1>Marks Sheet</h1><br><br>"+"Total marks : "+totalMarks +"<br>"+"Marks obtained : "+ total_marksobtain+"<br>Percentage : "+percentage+"%<br>Grade : Fail"+"<br>Remarks : Sorry");
 //    }
 
@@ -172,9 +172,39 @@
 // if(T > 20 && T <= 30){
 //    alert("Today’s Weather is cool");
 //    }
-   
+
 //    if(T > 10&&T <= 20){
 //       alert("OMG! Today’s weather is so Cool");
 //       }
 
+// 11. Write a program to create a calculator for +,-,*, / & %
+// using if statements. Take the following input:
+// a. First number
+// b. Second number
+// c. Operation (+, -, *, /, %)
+// Compute & show the calculated result to user.
 
+// var firstNum = +prompt("enter First number");
+// var secondNum = +prompt("enter Second number");
+// var operation = prompt("enter Operation (+, -, *, /, %)");
+
+// if (operation == "+") {
+//    var result = firstNum + secondNum;
+//    console.log(result);
+// }
+// if (operation == "-") {
+//    var result = firstNum - secondNum;
+//    console.log(result);
+// }
+// if (operation == "*") {
+//    var result = firstNum * secondNum;
+//    console.log(result);
+// }
+// if (operation == "/") {
+//    var result = firstNum / secondNum;
+//    console.log(result);
+// }
+// if (operation == "%") {
+//    var result = firstNum % secondNum;
+//    console.log(result);
+// }
