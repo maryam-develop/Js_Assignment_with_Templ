@@ -145,13 +145,36 @@
 // 9. Write a program that checks whether the given input is an
 // even number or an odd number.
 
-var userInput= +prompt("Enter a num ");
+// var userInput= +prompt("Enter a num ");
 
-if (userInput %2 == 0){
-   alert("The number is EVEN");
-}
-if (userInput %2 != 0){
-   alert("The number is ODD");
-}
+// if (userInput %2 == 0){
+//    alert("The number is EVEN");
+// }
+// if (userInput %2 != 0){
+//    alert("The number is ODD");
+// }
+
+// 10. Write a program that takes temperature as input and
+// shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// var T = +prompt("Temperature ?");
+
+// if(T > 40){
+//    alert("It is too hot outside");
+// }
+// if(T > 30 && T <= 40 ){
+//    alert("The Weather today is Normal");
+// }
+// if(T > 20 && T <= 30){
+//    alert("Today’s Weather is cool");
+//    }
+   
+//    if(T > 10&&T <= 20){
+//       alert("OMG! Today’s weather is so Cool");
+//       }
 
 
