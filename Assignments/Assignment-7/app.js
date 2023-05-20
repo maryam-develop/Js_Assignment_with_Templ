@@ -145,6 +145,13 @@
 // 9. Write a program that checks whether the given input is an
 // even number or an odd number.
 
+var userInput= +prompt("Enter a num ");
 
+if (userInput %2 == 0){
+   alert("The number is EVEN");
+}
+if (userInput %2 != 0){
+   alert("The number is ODD");
+}
 
 
