@@ -13,3 +13,15 @@
 
 // }
 
+// 2. Write a JavaScript program that accept two integers and display the larger.
+// Also show if the two integers are equal.
+
+// var integers1 = parseInt(prompt("Enter a number"));
+// var integers2 = parseInt(prompt("Enter another number"));
+// if (integers1 > integers2) {
+//     console.log(integers1 + " is the largest number");
+// } else if (integers2 > integers1) {
+//     console.log(integers2 + " is the largest number");
+// } else {
+//     console.log(integers1 + " and " + integers2 + " are equal");
+// }
