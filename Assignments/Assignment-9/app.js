@@ -33,5 +33,12 @@
 
 // document.write("<h3>Qualificatin</h3><br>"+ ed1 +"<br>"+ed2+"<br>"+ed3+"<br>"+ed4+"<br>"+ed5+"<br>"+ed6+"<br>"+ed7+"<br>"+ed8 )
 
+// 8. Write a program to store 3 student names in an array.Take another array to store score of these three students. Assume that total marks are 500 for each student, display the scores & percentages of students like:
 
+// var stdNam = ["john", "mary","joseph"]
+// var stdSco = [320, 230, 480];
+// var stdPer = [stdSco[0]/500*100,stdSco[1]/500*100,stdSco[2]/500*100];
 
+// document.write("Score of " +stdNam[0]+" is" +stdSco[0]+". Percentage :"+ stdPer[0]+"%")
+// document.write("<br>Score of " +stdNam[1]+" is" +stdSco[1]+". Percentage :"+ stdPer[1]+"%")
+// document.write("<br>Score of " +stdNam[2]+" is" +stdSco[2]+". Percentage :"+ stdPer[2]+"%")
