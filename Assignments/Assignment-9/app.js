@@ -118,12 +118,16 @@
 // were stored. (FIFO-First In First Out)
 
 // var arr = ["goat ", "cow "," cat ", "mice"];
-// arr.reverse();
-// document.write("<h4>Reverse : </h4>"+arr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>First In First Out : </h4>"+ sliArr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>First In First Out : </h4>"+ sliArr );
 
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>First In First Out : </h4>"+ sliArr );
 
-
-
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>First In First Out : </h4>"+ sliArr );
 
 
 
