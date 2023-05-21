@@ -129,6 +129,24 @@
 // var sliArr=arr.splice(0,1);
 // document.write("<h4>First In First Out : </h4>"+ sliArr );
 
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last In-
+// First Out)
+
+// var arr = ["goat ", "cow "," cat ", "mice"];
+// alert(arr);
+// var sliArr=arr.reverse(0,1);
+// document.write("<h4>Last In First Out : </h4>"+ sliArr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>Last In First Out : </h4>"+ sliArr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>Last In First Out : </h4>"+ sliArr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>Last In First Out : </h4>"+ sliArr );
+// var sliArr=arr.splice(0,1);
+// document.write("<h4>Last In First Out : </h4>"+ sliArr );
+
+
 
 
 
