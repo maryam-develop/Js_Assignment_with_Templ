@@ -99,6 +99,36 @@
 // 11. Write a program to initialize an array with city names.
 // Copy 3 array elements from cities array to selectedCities
 // array.
-var cities = ["karachi","lahore","Islamabad","Quetta","peshawar"];
-var selectedCities= cities.slice(2,5);
-document.write("<h3>Cities List:</h3> "+cities+"<br><h3>Selected Cities List: </h3>"+selectedCities );
+// var cities = ["karachi","lahore","Islamabad","Quetta","peshawar"];
+// var selectedCities= cities.slice(2,5);
+// document.write("<h3>Cities List:</h3> "+cities+"<br><h3>Selected Cities List: </h3>"+selectedCities );
+
+// 12. Write a program to create a single string from the
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+// var arr = ["This ", " is ","  my ", "cat"];
+// var str = arr.join("");
+
+// document.write("<h4>Array : </h4>"+arr );
+// document.write("<h4>String : </h4>"+str );
+
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+
+// var arr = ["goat ", "cow "," cat ", "mice"];
+// arr.reverse();
+// document.write("<h4>Reverse : </h4>"+arr );
+
+
+
+
+
+
+
+
+
+
+
+
