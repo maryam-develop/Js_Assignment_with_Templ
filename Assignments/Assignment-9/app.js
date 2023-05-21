@@ -87,5 +87,14 @@
 // colorlist.splice(delColor,delColorNum);
 // document.write("<h3>Color List</h3><br>"+ colorlist );
 
+// 10. Write a program to store student scores in an array &
+// sort the array in ascending order using Array’s sort
+// method.
+// var stdScr=[320,230,480,120];
+// document.write("score of Student : "+stdScr );
+
+// stdScr.sort();
+// document.write("<br>Oedered Score Of Student: " + stdScr );
 
 
+            
