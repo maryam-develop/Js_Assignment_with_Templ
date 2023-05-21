@@ -96,5 +96,9 @@
 // stdScr.sort();
 // document.write("<br>Oedered Score Of Student: " + stdScr );
 
-
-            
+// 11. Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+var cities = ["karachi","lahore","Islamabad","Quetta","peshawar"];
+var selectedCities= cities.slice(2,5);
+document.write("<h3>Cities List:</h3> "+cities+"<br><h3>Selected Cities List: </h3>"+selectedCities );
