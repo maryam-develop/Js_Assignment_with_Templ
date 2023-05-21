@@ -146,11 +146,7 @@
 // var sliArr=arr.splice(0,1);
 // document.write("<h4>Last In First Out : </h4>"+ sliArr );
 
-
-
-
-
-
-
-
-
+// 15 Write a program to store phone manufacturers (Apple,
+//     Samsung, Motorola, Nokia, Sony & Haier) in an array.
+//     Display the following dropdown/select menu in your
+//     browser using document.write() method:
