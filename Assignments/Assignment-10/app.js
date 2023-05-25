@@ -13,24 +13,85 @@
 
 // for (var index = 1; index <= 10; index++) {
 //      console.log(index);
-    
+
 //}
 
 // 4. Write a program to print multiplication table of any number using for loop. Table number & length should be taken as an input from user
- 
-var userNum = +prompt("Enter a number to show its multiplications table");
- var userleng = +prompt("Enter length multiplications table");
-document.write("Multiplication table of "+ userNum+ " Length of " +userleng +"<br>");
 
- for (var i = 1; i<= userleng; i++ ){
-document.write(userNum + " * " + i + " = " +  userNum*i +"<br>" )
+// var userNum = +prompt("Enter a number to show its multiplications table");
+//  var userleng = +prompt("Enter length multiplications table");
+// document.write("Multiplication table of "+ userNum+ " Length of " +userleng +"<br>");
 
- }
+//  for (var i = 1; i<= userleng; i++ ){
+// document.write(userNum + " * " + i + " = " +  userNum*i +"<br>" )
 
+//  }
 
+// 5. Write a program to print items of the following array using for loop:
+// fruits = [“apple”, “banana”, “mango”, “orange”, “strawberry”]
 
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+//  for (var i = 0; i < fruits.length; i++) {
+//     document.write(fruits[i]+"<br>");   
+//     }
+//     for (var i = 0; i < fruits.length; i++) {   
+//         console.log("Element at index "+ i + " is "+ fruits[i]);
+//        }
 
+// 6. Generate the following series in your browser. See
+// example output.
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+// document.write("<h3>Counting:</h3>")
+// for (let index = 1; index <= 15; index++) {
+//     document.write([index] + ",");
 
+// }
+// // b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+// document.write("<h3>Reverse Counting:</h3>")
+// for (let index = 10; index >= 1; index--) {
+//     document.write([index] + ",");
+
+// }
+// // c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+// document.write("<h3>EVEN:</h3>")
+// for (let index = 1; index <= 15; index++){
+//     if (index % 2 == 0) {
+//         document.write(index + ",");
+//         }
+// }
+// // d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+// document.write("<h3>ODD:</h3>")
+// for (let index = 1; index <= 15; index++){
+//     if (index % 2 == 1) {
+//         document.write(index + ",");
+//     }}
+
+// // e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+// document.write("<h3>Series: </h3>")
+// for (let index = 1; index <= 15; index++){
+//     if (index % 2 == 0) {
+//         document.write(index + "k,");
+//     }}
+
+// 7. You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example
+
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
+// if (A[index] != userInput) {
+//     document.write("We are Sorry. "+userInput+ "is <b>not available</b> in our bakery");
+
+// }
+// for (var index = 0; index <= A.length; index++) {
+//     if (A[index] == userInput) {
+// document.write("cookie is <b>available</b> at index "+index+" in our bakery");
+    
+// }
+// }
 
 
 
