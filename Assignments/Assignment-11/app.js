@@ -30,3 +30,8 @@
 
 // var Name= "Hyderabad";
 // document.write("City: "+Name+"<br>After replacement: "+Name.replace("Hyder","Islam"))
+
+// 8. Write a program to replace all occurrences of “and” in the string with “&” and display the result in your browser.
+//  var message = “Ali and Sami are best friends. They play cricket and football together.”;
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write(message.replace(/and/g,"&"))
