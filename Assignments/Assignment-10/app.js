@@ -80,20 +80,16 @@
 // After searching, prompt the user whether the given item is
 // found in the list or not. Example
 
-// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
-// if (A[index] != userInput) {
-//     document.write("We are Sorry. "+userInput+ "is <b>not available</b> in our bakery");
+var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
+var matchfound = false;
+for (var index = 0; index < A.length; index++) {
+    if (A[index] == userInput) {
+        matchfound = true
+document.write("cookie is <b>available</b> at index "+index+" in our bakery");
+    }
+}
+if (matchfound === false) {
+         document.write("We are Sorry. "+userInput+ " is <b>not available</b> in our bakery"); }
 
-// }
-// for (var index = 0; index <= A.length; index++) {
-//     if (A[index] == userInput) {
-// document.write("cookie is <b>available</b> at index "+index+" in our bakery");
     
-// }
-// }
-
-
-
-
-
