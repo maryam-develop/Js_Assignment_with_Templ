@@ -3,12 +3,15 @@
 // var lastName = prompt("enter your Last Name");
 
 // var fullName = firstName +" "+ lastName;
-// document.write("Hello "+ fullName);
+// document.write("Hi "+ fullName );
 
 // 2. Write a program to take a user input about his favorite mobile phone model. Find and display the length of user input in your browser
 // var phone = prompt("enter your phone model");
 // document.write(phone + " Length of string: " + phone.length);
 
+// 3. Write a program to find the index of letter “n” in the word “Pakistani” and display the result in your browser
+// var Name = "Pakistani";
+// document.write("String: "+ Name+"<br>Index of 'n': "+Name.indexOf("n") );
 
 
 
