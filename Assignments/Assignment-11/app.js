@@ -61,3 +61,18 @@
 // var num = 35.36 ;
 // var num1 = num.toString().replace(".","")
 // document.write("Number "+num+"<br>Result "+num1);
+
+// 13. Write a program to take user input and store username
+// in a variable. If the username contains any special symbol
+// among [@ . , !], prompt the user to enter a valid username.
+// For character codes of [@ Note:
+//     ASCII code of ! is 33
+//     ASCII code of , is 44
+//     ASCII code of . is 46
+//     ASCII code of @ is 64
+
+var username = prompt("enter user Name ");
+if (username.match(/[@.,!]/g)) {
+    alert("Please enter a valid username");
+    }
+    
