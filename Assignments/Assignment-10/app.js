@@ -118,7 +118,7 @@
 // 10. Write a program to print multiples of 5 ranging 1 to
 // 100.
 
-//  for (let index = 0; index <= 100; index++) {
+//  for (var index = 1; index <= 100; index++) {
 //     if (index % 5 == 0) {
 //    document.write(index + ", ");}
 //  }
