@@ -80,16 +80,45 @@
 // After searching, prompt the user whether the given item is
 // found in the list or not. Example
 
-var A = ["cake", "apple pie", "cookie", "chips", "patties"];
-var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
-var matchfound = false;
-for (var index = 0; index < A.length; index++) {
-    if (A[index] == userInput) {
-        matchfound = true
-document.write("cookie is <b>available</b> at index "+index+" in our bakery");
-    }
-}
-if (matchfound === false) {
-         document.write("We are Sorry. "+userInput+ " is <b>not available</b> in our bakery"); }
+// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
+// var matchfound = false;
+// for (var index = 0; index < A.length; index++) {
+//     if (A[index] == userInput) {
+//         matchfound = true
+// document.write("cookie is <b>available</b> at index "+index+" in our bakery");
+//     }
+// }
+// if (matchfound === false) {
+//          document.write("We are Sorry. "+userInput+ " is <b>not available</b> in our bakery"); }
 
-    
+// 8. Write a program to identify the largest number in the
+// given array.
+// A = [24, 53, 78, 91, 12]
+// var largest = A[0];
+// for (var index = 0; index < A.length; index++) {
+//     if (A[index] > largest) {
+//         largest = A[index];
+//     }
+// }
+// document.write("Array items: " + A);
+// document.write("<br>The largest number is " + largest);
+
+// 9. Write a program to identify the smallest number in the
+// given array.
+// A = [24, 53, 78, 91, 12]
+// var smallest = A[0];
+// for (var index = 0; index < A.length; index++) {
+//     if (A[index] < smallest) {
+//         smallest = A[index];
+//         }
+//         }
+//         document.write("Array items: " + A);
+//         document.write("<br>The smallest number is " + smallest);
+// 10. Write a program to print multiples of 5 ranging 1 to
+// 100.
+
+//  for (let index = 0; index <= 100; index++) {
+//     if (index % 5 == 0) {
+//    document.write(index + ", ");}
+//  }
