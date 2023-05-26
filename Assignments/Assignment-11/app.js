@@ -71,8 +71,43 @@
 //     ASCII code of . is 46
 //     ASCII code of @ is 64
 
-var username = prompt("enter user Name ");
-if (username.match(/[@.,!]/g)) {
-    alert("Please enter a valid username");
-    }
+// var username = prompt("enter user Name ");
+// if (username.match(/[@.,!]/g)) {
+//     alert("Please enter a valid username");
+//     }
     
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array. After searching, prompt the user whether the given
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user
+// enters cookie, Cookie, COOKIE or coOkIE, program
+// should inform about its availability. Example:
+
+// A = ["cake", "apple pie", "cooki","chips", "patties"]
+// var userInput = prompt("welcome to ABC Bakery. What do you want to order sir/ma'am");
+// userInput = userInput.toLowerCase();
+// var matchfound = false;
+// for (var index = 0; index < A.length; index++) {
+//     if (A[index] == userInput) {
+//         matchfound = true
+// document.write(userInput+" is <b>available</b> at index "+index+" in our bakery");
+//     }
+// }
+// if (matchfound === false) {
+//          document.write("We are Sorry. "+userInput+ " is <b>not available</b> in our bakery"); }
+
+// 15. Write a program to take password as an input from
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+
+
+

@@ -86,7 +86,7 @@
 // for (var index = 0; index < A.length; index++) {
 //     if (A[index] == userInput) {
 //         matchfound = true
-// document.write("cookie is <b>available</b> at index "+index+" in our bakery");
+// document.write(userInput+" is <b>available</b> at index "+index+" in our bakery");
 //     }
 // }
 // if (matchfound === false) {
