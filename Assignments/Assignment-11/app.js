@@ -35,3 +35,9 @@
 //  var message = “Ali and Sami are best friends. They play cricket and football together.”;
 // var message = "Ali and Sami are best friends. They play cricket and football together.";
 // document.write(message.replace(/and/g,"&"))
+
+// 9. Write a program that converts a string “472” to a number
+// 472. Display the values & types in your browser.
+var Number = "472";
+var parNumber= +(Number)
+document.write("Value: "+ Number + "<br> Type: " + typeof Number + "<br> Value: " + parNumber +"<br> Type: " + typeof parNumber);
