@@ -46,3 +46,12 @@
 // var user=prompt("enter Some thing");
 // var userChang = user.toUpperCase();
 // document.write("user input: "+user+"<br>Upper case: "+userChang);
+
+// 11 Write a program that takes user input. Convert and show the input in title case
+// var user=prompt("enter Some thing");
+// var user1 = user.toLowerCase();
+
+// var userChang = user1.charAt(0).toUpperCase()+user1.slice(1, user1.length)
+
+// document.write("user input: "+user+"<br>Title Case: "+userChang);
+
