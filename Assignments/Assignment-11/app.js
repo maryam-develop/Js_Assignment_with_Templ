@@ -38,6 +38,11 @@
 
 // 9. Write a program that converts a string “472” to a number
 // 472. Display the values & types in your browser.
-var Number = "472";
-var parNumber= +(Number)
-document.write("Value: "+ Number + "<br> Type: " + typeof Number + "<br> Value: " + parNumber +"<br> Type: " + typeof parNumber);
+// var Number = "472";
+// var parNumber= +(Number)
+// document.write("Value: "+ Number + "<br> Type: " + typeof Number + "<br> Value: " + parNumber +"<br> Type: " + typeof parNumber);
+
+// 10. Write a program that takes user input. Convert and show the input in capital letters.
+// var user=prompt("enter Some thing");
+// var userChang = user.toUpperCase();
+// document.write("user input: "+user+"<br>Upper case: "+userChang);
