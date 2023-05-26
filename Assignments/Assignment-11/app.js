@@ -17,6 +17,10 @@
 // var word = "Hello World";
 // document.write("String: "+ word+"<br>Index of 'l': "+word.lastIndexOf("l") );
 
+// 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser.
+// var Name = "Pakistani";
+// document.write("String: "+ Name+"<br>Character at index 3: "+Name.charAt(3) );
+
 
 
 
