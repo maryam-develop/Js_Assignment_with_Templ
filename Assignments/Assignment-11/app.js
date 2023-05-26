@@ -20,8 +20,9 @@
 // 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser.
 // var Name = "Pakistani";
 // document.write("String: "+ Name+"<br>Character at index 3: "+Name.charAt(3) );
+// 6. Repeat Q1 using string concat() method.
+// var firstName = prompt("enter your First Name");
+// var lastName = prompt("enter your Last Name");
 
-
-
-
+// document.write("Hi "+ firstName.concat(" "+lastName) );
 
