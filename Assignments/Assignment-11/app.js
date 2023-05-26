@@ -13,6 +13,10 @@
 // var Name = "Pakistani";
 // document.write("String: "+ Name+"<br>Index of 'n': "+Name.indexOf("n") );
 
+// 4. Write a program to find the last index of letter “l” in the word “Hello World” and display the result in your browser
+// var word = "Hello World";
+// document.write("String: "+ word+"<br>Index of 'l': "+word.lastIndexOf("l") );
+
 
 
 
