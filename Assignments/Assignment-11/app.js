@@ -75,7 +75,7 @@
 // if (username.match(/[@.,!]/g)) {
 //     alert("Please enter a valid username");
 //     }
-    
+
 // 14. You have an array
 // A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
 // Write a program to enable “search by user input” in an
@@ -98,6 +98,50 @@
 // if (matchfound === false) {
 //          document.write("We are Sorry. "+userInput+ " is <b>not available</b> in our bakery"); }
 
+// 15 Write a program to take password as an input from user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+// var pass = prompt("enter Password");
+// var pass1 = pass.charAt[0]
+// for (let i = 65; i <= 90; i++){
+//     for (let i = "A"; i <= "Z"; i++){
+//         document.write("your password is " + pass)
+//         break;
+//     }
+// }
+
+
+
+
+// for (let i = 65; i <= 90; i++) {
+//     for (let i = 97; i <= 122; i++) {
+//         for (let p = 0; p <= 9; p++) {
+//             if (pass.length >= 6) {
+//                 document.write("your password is " + pass)
+
+//             } else if (pass1 = p) {
+//                 document.write("password should not start with a num ");
+//                 break;
+//             } else {
+//                 document.write("password should not less than 6 ");
+//                 break;
+//             }
+
+//         }
+//         break;
+//     }
+//     break;
+// }
+
+
+
+
 
 // 16. Write a program to convert the following string to an
 // array using string split method.
@@ -109,5 +153,13 @@
 //     document.write(arr[i]+"<br>");
 //     }
 
+// 17. Write a program to display the last character of a user input.
+// var userInput = prompt("enter somde thing");
+// var userr=userInput.charAt(userInput.length-1)
+// document.write("User Input: "+userInput+"<br>last Character of input: " + userr );
 
+// 18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
 
+var word = "The quick brown fox jumps over the lazy dog";
+
+console.log("Text: "+ word+"<br>Index of 'the': "+(Count("The quick brown fox jumps over the lazy dog","The") ));
