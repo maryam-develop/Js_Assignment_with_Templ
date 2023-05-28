@@ -46,3 +46,12 @@
 // console.log("round off value: "+user_round );
 // console.log("floor value: "+ user_floor);
 // console.log("ceil value: "+ user_ceil   );
+
+// 3. Write a program that displays the absolute value of a
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+// var num = +prompt("Enter a number")
+// var num1 = Math.abs(num);
+// console.log("The absolute value of : "+num +" is "+ num1 );
+
+
