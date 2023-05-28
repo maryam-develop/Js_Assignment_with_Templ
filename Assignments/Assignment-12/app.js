@@ -54,4 +54,10 @@
 // var num1 = Math.abs(num);
 // console.log("The absolute value of : "+num +" is "+ num1 );
 
+// 4. Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// // browser.:
+// var num = Math.round( Math.random()*6)
+// console.log("random dice value is : "+num);
+
 
