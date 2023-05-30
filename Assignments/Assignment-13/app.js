@@ -28,3 +28,15 @@
 //     console.log("its a Funday");
 // }
 
+// 5. Write a program that shows the message “First fifteen
+// days of the month” if the date is less than 16 th of the month
+// else shows “Last days of the month”
+
+// var current = new Date()
+// var day = current.getDate()
+// console.log(day);
+// if (day < 16) {
+//         console.log("First fifteen days of the month");
+//     } else {
+//             console.log("Last days of the month");
+// }
