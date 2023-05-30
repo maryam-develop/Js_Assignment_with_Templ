@@ -88,9 +88,14 @@
 // c. 50.2kgs
 // d. 50.2kilograms
 
-// var user = +prompt("Enter your weight in kilograms")
-// var user_weight = user.match(/[0-9][])
-// console.log("The weight of user is "+ user_weight+ " kilograms");
+// var user = prompt("Enter your weight in kilograms")
+//     if (user<2) {
+//         // console.log("The weight of user is "+ user.slice(0, )+ " kilograms");
+
+//     }else{
+//     console.log("The weight of user is "+ user.slice(0, 4)+ " kilograms");
+//     }
+  
 
 // Write a program that stores a random secret number from
 // 1 to 10 in a variable. Ask the user to input a number
