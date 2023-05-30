@@ -60,4 +60,25 @@
 // var num = Math.round( Math.random()*6)
 // console.log("random dice value is : "+num);
 
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser
+// for (let i = 1; i <=2; i++) {
+ 
+// var num = Math.round(Math.random(i));
+// if (num == 1) {
+//     console.log(num);
+//     console.log("random coin value: Tails");
+//     break;
+// } else {
+//     console.log(num);
+//     console.log("random coin value: Heads");
+//     break;
+// }
+// }
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+
+// var user = Math.round(Math.random()*100);
+// console.log("random number 1 and 100: "+user);
 
