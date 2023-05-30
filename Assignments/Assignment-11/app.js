@@ -161,5 +161,8 @@
 // 18. You have a string “The quick brown fox jumps over the lazy dog”. Write a program to count number of occurrences of word “the” in given string.
 
 var word = "The quick brown fox jumps over the lazy dog";
+var arr = word.toLowerCase();
+arr = arr.match(/the/g)
 
-console.log("Text: "+ word+"<br>Index of 'the': "+(Count("The quick brown fox jumps over the lazy dog","The") ));
+document.write("Text: "+ word+"<br>");
+document.write("There are "+ arr.length+" occurence(s) of word 'the'");
