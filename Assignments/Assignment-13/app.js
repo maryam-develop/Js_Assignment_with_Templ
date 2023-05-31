@@ -100,3 +100,14 @@
 // console.log("On reference date "+current)
 // console.log(diff1 + " seconds have elapsed since January 1, 2015");
 
+// 11. Create a Date object for the current date and time.
+// Extract the hours, reset the date object an hour ahead and
+// finally display the date object in your browser.
+
+// var current = new Date()
+// console.log(current);
+// var currHour = current.getHours();
+// var newhour = current.setHours(currHour + 1);
+
+// console.log("1 hour ago, it was "+current);
+
