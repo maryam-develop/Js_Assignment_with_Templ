@@ -40,3 +40,33 @@
 //     } else {
 //             console.log("Last days of the month");
 // }
+
+// 6. Write a program that determines the minutes since
+// midnight, Jan. 1, 1970 and assigns it to a variable that
+// hasn't been declared beforehand. Use any variable you like
+// to represent the Date object.
+
+
+// var todayDate = new Date();
+// var Todaymilli = todayDate.getTime();
+// var todayMin = todayDate.getMinutes();
+// var todayMin1 = (Todaymilli - todayMin)/(1000*60*60)
+
+ 
+// document.write("Current Date: " + todayDate);
+// document.write("<br> Elapsed milliseconds since midnight, Jan 1, 1970: " + Todaymilli);
+// document.write("<br> Elapsed minutes since midnight, Jan 1, 1970: " + todayMin1)
+
+// 7. Write a program that tests whether it's before noon and
+// alert “Its AM” else “its PM”.
+ 
+// var current = new Date()
+// var hour = current.getTime()
+// var hour1 = hour/(1000*60*60)
+// if (hour1 > 12) {
+//     console.log("Its PM");
+    
+// }else{
+//     console.log("Its AM");
+// }
+
