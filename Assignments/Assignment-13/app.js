@@ -86,7 +86,7 @@
 // var lastRamd = current.getDate(2023, 2, 23)
 // var diff = (current- lastRamd)/(1000*60*60*24*365.25)
 // var diff1 = parseInt(diff)
-// console.log(diff1 + " days have passed since 1st Ramadan, 2024");
+// alert(diff1 + " days have passed since 1st Ramadan, 2024");
 
 // 10. Write a program that displays in your browser the
 // seconds that elapsed between the reference date and the
@@ -107,7 +107,17 @@
 // var current = new Date()
 // console.log(current);
 // var currHour = current.getHours();
-// var newhour = current.setHours(currHour + 1);
+//  current.setHours(currHour + 1);
 
 // console.log("1 hour ago, it was "+current);
+
+// 12. Write a program that creates a date object and show the
+// date in an alert box that is reset to 100 years back?
+
+// var current = new Date()
+// console.log("Curreny date: "+current);
+// var currYear = current.getFullYear()
+//  current.setFullYear(currYear-100)
+
+// console.log("100 years back, it was "+ current);
 
