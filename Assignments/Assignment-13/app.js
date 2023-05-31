@@ -121,3 +121,9 @@
 
 // console.log("100 years back, it was "+ current);
 
+// 13. Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+//  var age = +prompt("Your age please");
+//  console.log("Your age is "+age);
+//  var birthYear = (new Date()).getFullYear() - age;
+//  console.log("Your birth year is: " + birthYear);
