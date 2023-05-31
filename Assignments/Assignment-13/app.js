@@ -78,4 +78,13 @@
 // var lastday = laterDate.getDay()
 // console.log( laterDate);
 
+// 9. Create a date object of the starting date of this Ramadan
+// and alert the number of days past since 1 st Ramadan?
+// Note: 1 st Ramadan was on June 18, 2015
+
+// var current = new Date(2024, 2, 10)
+// var lastRamd = current.getDate(2023, 2, 23)
+// var diff = (current- lastRamd)/(1000*60*60*24*365.25)
+// var diff1 = parseInt(diff)
+// console.log(diff1 + " days have passed since 1st Ramadan, 2024");
 
