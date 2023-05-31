@@ -127,3 +127,35 @@
 //  console.log("Your age is "+age);
 //  var birthYear = (new Date()).getFullYear() - age;
 //  console.log("Your birth year is: " + birthYear);
+
+// 14. Write a program to generate your K-Electric bill in your
+// browser. All the amounts should be rounded off to 2
+// decimal places. Display the following fields:
+// a. Customer Name
+// b. Current Month
+// c. Number of units
+// d. Charges per unit
+// e. Net Amount Payable (within Due Date)
+// f. Late Payment Surcharge
+// g. Gross Amount Payable (after Due Date)
+// Where,
+// Net Amount Payable (within Due Date) = Number of units * Charges per unit
+// & Gross Amount Payable (after Due Date) = Net Amount + Late Payment Surcharge
+
+// var current = new Date()
+// var customerName = prompt("What is your name?");
+// var month = current.getMonth();
+// var monthName = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// var units = +prompt("How many units?");
+// var changPerUnuit = +prompt("Charge per units?");
+// var Net_Amount_Payable = units * changPerUnuit;
+// var latePay = 350;
+// var grossAmount = Net_Amount_Payable + latePay;
+
+// document.write("<h1>K-Electric bill</h1><br><br>"+"Customer Name "+customerName+"<br>Month "+ monthName[month]+"<br>Numbers of Units"+units+"<br>Charges per unit "+changPerUnuit+"<br><br>Net Amount Payable (within Due Date): "+ Net_Amount_Payable+"<br>Late Payment Surcharge "+latePay+"<br>Gross Amount Payable (after Due Date) "+grossAmount)
+
+
+
+
+
+
