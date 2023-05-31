@@ -73,3 +73,17 @@
 // var fac = factorial(5);
 // console.log(fac);
 
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser
+
+function numBer(start, end){
+for (var i = start; i <= end; i++) {
+ 
+    console.log(i);
+}
+
+
+}
+
+numBer(1,10);
+
