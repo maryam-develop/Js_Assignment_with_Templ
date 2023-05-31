@@ -70,3 +70,12 @@
 //     console.log("Its AM");
 // }
 
+// 8. Write a program that creates a Date object for the last day
+// of the last month of 2020 and assigns it to variable named
+// laterDate.
+
+// var laterDate = new Date(2023, 3, 30);
+// var lastday = laterDate.getDay()
+// console.log( laterDate);
+
+
