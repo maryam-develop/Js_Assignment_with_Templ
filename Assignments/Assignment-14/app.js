@@ -25,3 +25,51 @@
 // }
 //  var res =addNum();
 //  console.log(res);
+// 4. Calculator:
+// Write a function that takes three arguments num1, num2
+// & operator & compute the desired operation. Return and
+// show the desired result in your browser.
+
+// function addNum(num1,num2,operator) {
+//     var num1 = +prompt("enter 1st number");
+//     var num2 = +prompt("enter 2nd number");
+//     var operator = prompt("Enter the operator (+, -, *, /):");
+//     var res ;
+//     if (operator == "+") {
+//         res = num1 + num2;
+
+//        if (operator == "-") {
+//          res = num1 - num2;
+//        }
+// if (condition) {
+//             res = num1 * num2;
+
+// }
+// } else {
+//     res = num1 / num2;
+// }        
+
+//     return res;
+//     }
+//      var res1 =addNum();
+//      console.log(res1);
+
+// 5. Write a function that squares its argument
+
+// function squrNum(num) {
+//     var num1 = num ** 2;
+//     console.log(num1);
+// }
+
+// squrNum(3);
+
+// 6. Write a function that computes factorial of a number
+// function factorial(num) {
+//     if (num === 0) {
+//         return 1;
+//       }
+//       return num * factorial(num - 1);
+//     }
+// var fac = factorial(5);
+// console.log(fac);
+
