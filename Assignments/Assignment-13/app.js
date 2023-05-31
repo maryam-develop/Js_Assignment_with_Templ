@@ -149,10 +149,12 @@
 // var units = +prompt("How many units?");
 // var changPerUnuit = +prompt("Charge per units?");
 // var Net_Amount_Payable = units * changPerUnuit;
+// var net1 =Net_Amount_Payable.toFixed(2)
 // var latePay = 350;
 // var grossAmount = Net_Amount_Payable + latePay;
+// var g1 = grossAmount.toFixed(2)
 
-// document.write("<h1>K-Electric bill</h1><br><br>"+"Customer Name "+customerName+"<br>Month "+ monthName[month]+"<br>Numbers of Units"+units+"<br>Charges per unit "+changPerUnuit+"<br><br>Net Amount Payable (within Due Date): "+ Net_Amount_Payable+"<br>Late Payment Surcharge "+latePay+"<br>Gross Amount Payable (after Due Date) "+grossAmount)
+// document.write("<h1>K-Electric bill</h1><br><br>"+"Customer Name "+customerName+"<br>Month "+ monthName[month]+"<br>Numbers of Units"+units+"<br>Charges per unit "+changPerUnuit+"<br><br>Net Amount Payable (within Due Date): "+ net1+"<br>Late Payment Surcharge "+latePay+"<br>Gross Amount Payable (after Due Date) "+g1)
 
 
 
