@@ -88,3 +88,15 @@
 // var diff1 = parseInt(diff)
 // console.log(diff1 + " days have passed since 1st Ramadan, 2024");
 
+// 10. Write a program that displays in your browser the
+// seconds that elapsed between the reference date and the
+// beginning of 2015
+// var refDate = new Date(2023, 0, 1)
+// var refSec = refDate.getTime()
+// var current = new Date()
+// var currentSec = current.getTime()
+// var diff = (currentSec - refSec)/(1000*60)
+// var diff1 = parseInt(diff)
+// console.log("On reference date "+current)
+// console.log(diff1 + " seconds have elapsed since January 1, 2015");
+
