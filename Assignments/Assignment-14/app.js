@@ -149,14 +149,34 @@
 // EXAMPLE STRING : 'the quick brown fox'
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
 
-function str(){
-    var arr = arguments[0].split(' ');
-    var arr2 = [];
-    for (var i = 0; i < arr.length; i++) {
-        arr2[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
-        }
-        return arr2.join(' ');
-        return arr;
-        }
-        var sas =  str('the quick brown fox')
-        console.log(sas);
+// function str(){
+//     var arr = arguments[0].split(' ');
+//     var arr2 = [];
+//     for (var i = 0; i < arr.length; i++) {
+//         arr2[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+//         }
+//         return arr2.join(' ');
+        
+//         }
+//         var sas =  str('the quick brown fox')
+//         console.log(sas);
+// 12. Write a JavaScript function that accepts a string as a
+// parameter and find the longest word within the string.
+// EXAMPLE STRING : 'Web Development Tutorial'
+// EXPECTED OUTPUT : 'Development'
+// function LongestWord(str) {
+//      var  arr = str.split(' ');  
+//       var  Word = '';  
+//     for (let i = 0; i < arr.length; i++) {
+//        var  word = arr[i];  
+//       if (word.length >Word.length) {
+//         Word = word;
+//       }
+//     }
+  
+//     return Word;
+//   }
+
+//     var sas = LongestWord('Web Development Tutorial ')
+//     console.log(sas);
+
