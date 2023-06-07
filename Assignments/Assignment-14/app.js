@@ -78,7 +78,7 @@
 
 // function numBer(start, end){
 // for (var i = start; i <= end; i++) {
- 
+
 //     console.log(i);
 // }
 
@@ -105,7 +105,7 @@
 //      console.log(base_square);
 //      console.log(perp_square);
 //      return hypo;
-    
+
 
 // }
 // var hypo = calculateHypotenuse(2,3);
@@ -156,7 +156,7 @@
 //         arr2[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
 //         }
 //         return arr2.join(' ');
-        
+
 //         }
 //         var sas =  str('the quick brown fox')
 //         console.log(sas);
@@ -173,10 +173,27 @@
 //         Word = word;
 //       }
 //     }
-  
+
 //     return Word;
 //   }
 
 //     var sas = LongestWord('Web Development Tutorial ')
 //     console.log(sas);
 
+// 13. Write a JavaScript function that accepts two arguments, a
+// string and a letter and the function will count the number of
+// occurrences of the specified letter within the string.
+// Sample arguments : 'JSResourceS.com', 'o'
+
+
+// function countLetter(word , letter) {
+//   var lett = 0;
+//   for (var i = 0; i < word.length; i++) {
+//     if (word[i] === letter) {
+//       lett++;
+//     }
+//   }
+//   return lett;
+// }
+
+// document.write(countLetter("JSResourceS.com","o")); 
